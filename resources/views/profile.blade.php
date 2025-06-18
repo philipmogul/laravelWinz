@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>PROFILE PAGE</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -50,8 +50,8 @@
             @endif
         </header>
         <div>
-             Welcome to the World Of Laravel MR. Philip Value! {{ date('l d/M/Y') }}
-       </div>
+            PROFILE PAGE for {{ $name }}
+        </div>
 
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
